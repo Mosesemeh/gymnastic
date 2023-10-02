@@ -39,9 +39,13 @@ header nav a.active:before{
 }
 section.intro{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 60px 20px;
+    grid-template-columns: 1.2fr 0.8fr;
+    padding: 0 20px;
     position:relative;
+    gap: 50px;
+}
+section.intro .content-column{
+    padding-top: 50px;
 }
 section.intro h1{
     color: #d8a9D8;
@@ -75,6 +79,14 @@ section.intro div.circle{
     background: linear-gradient(270deg, #ABB6E4 200px, #d8a9D8);
     position: absolute;
     top: -200px;
-    right: -200px;
+    right: -200px; 
     z-index: -1;
+}
+.intro-picture img{
+    width: 450px;
+}
+.dots{
+    background: url(photo/whiteCircle.png);
+    width: 250px;
+    height: 180px;
 }
