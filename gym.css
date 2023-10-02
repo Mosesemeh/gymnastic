@@ -5,6 +5,7 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
+    overflow: hidden;
 }
 a.btn, button{
     background-color: #222;
@@ -71,5 +72,9 @@ section.intro div.circle{
     width: 500px;
     height: 500px;
     border-radius: 50%;
-    background-color: red;
+    background: linear-gradient(270deg, #ABB6E4 200px, #d8a9D8);
+    position: absolute;
+    top: -200px;
+    right: -200px;
+    z-index: -1;
 }
