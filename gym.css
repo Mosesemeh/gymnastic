@@ -86,7 +86,12 @@ section.intro div.circle{
     width: 450px;
 }
 .dots{
-    background: url(photo/whiteCircle.png);
+    background: url(photo/dotz.png);
+    position:absolute;
+    z-index: -1;
+    right: -5px;
+    opacity: 0.5;
+    top: 30px;
     width: 250px;
-    height: 180px;
+    height: 250px;
 }
